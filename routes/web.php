@@ -15,10 +15,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-   return view('backend.home');
+   return view('frontend.home');
 });
 
 
 Route::get('/home', function () {
-    return view('backend.books.book');
+    return view('backend.home');
 });
+
